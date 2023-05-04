@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+/* nav-bar */
+.top-header{
+    color: rgba(255, 255, 255, 0.711);
+    background-color: rgb(17,17,17);
+}
+.top-header i{
+    padding: 0px 8px;
+}
+.mail i{
+   border-left: 1px solid rgba(255, 255, 255, 0.711);
+    padding-left: 8px;
+}
+.mail a{
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.711);
+}
+
+.login i{
+    border-left: 1px solid rgba(255, 255, 255, 0.711);
+    padding-left: 8px;
+}
+.num{
+    color:rgb(210,10,10);
+}
+/* top-header-end */
+
+/* bottom-header */
+.bottom-header{
+    background-color: rgb(210,10,10);
+}
+.bg-dark{
+    background-color:  rgb(210,10,10);
+}
+.nav-link {
+    color: #fff;
+}
+.nav-item{
+    padding: 10px 20px;
+}
+.nav-icons a{
+    color: white;
+    padding: 0px 13px;
+}
+.search-icon{
+    padding-top: 3px;
+    text-align: center;
+}
+.search-icon a{
+    text-decoration: none;
+    background-color: white;
+    height: 26px;
+    width: 64px;
+    display: inline-block;
+    color: #080808;
+  
+}
+/* bottom-header-end  */
+
+/* home -sec */
+.home-content{
+    margin: 0% 0% 24% -63%;
+    text-align: left;
+
+}
+.home-btn a{
+    padding: 13px 30px;
+    background-color: rgb(210,10,10);
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 34px;
+}
+/* about-sec */
+.about{
+    background-color: rgb(234 234 234 / 83%);
+}
+.coach-sec{
+    margin-top: -63px;
+    z-index: 1;
+}
+.coach-img{
+    position: relative;
+}
+.coach-img::after{
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border: 1px solid rgb(210,10,10);
+
+}
+
+/* about-sec-end */
+
+/* what we do  */
+.what-boxes{
+    position: relative;
+}
+ .what-icon{
+        position: absolute;
+        top: 67px;
+        left: -20px;
+        font-size: 24px;
+        border: 1px solid rgb(6 6 6 / 14%);
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        padding: 20px;
+        background-color: white;
+        color:  rgb(210,10,10);
+        box-shadow: 0px 4px 10px rgb(7 7 7 / 43%);
+    }
+    .what-icon:hover{
+        background-color: rgb(210,10,10) ;
+        color: #fff;
+    }
+/* class */
+.card-img{
+    overflow: hidden;
+}
+.card-img img{
+    transform: scale(1);
+    transition: 2s;
+}
+.card-img img:hover{
+    transform: scale(1.1);
+}
+.card-text:hover{
+    color: rgb(210,10,10) ;
+}
+
+/* card -end */
+
+/* fitenss-training */
+.fitness-training{
+    background-image: url(../images/h3-bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.fit-pic{
+    position: relative;
+}
+.training-image{
+    position: absolute !important;
+    bottom: -38px !important;
+    
+}
+.training-image::after{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(210,10,10);
+}
+/* training-sec-end */
+
+/* brands-start */
+
+
+.brands-img img{
+    filter: grayscale(100%);
+}
+.brands-img img:hover{
+    filter: none;
+}
+
+/* brands-sec-end */
+
+/* gym-workouts */
+.gym-workouts{
+    position: relative;
+}
+.owl-prev{
+    position: absolute;
+    top: 242px;
+    left: 7px;
+}
+.owl-prev span{
+    font-size: 40px;
+    display: block;
+    background-color: rgb(241 241 241 / 66%);
+    padding: 7px 34px 11px 33px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+}
+.owl-next{
+    position: absolute;
+    top: 242px;
+    right: 8px;
+}
+.owl-next span{
+    font-size: 40px;
+    display: block;
+    background-color: rgb(241 241 241 / 66%);
+    padding: 7px 34px 11px 33px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+}
+
+/* gym-workouts -ends*/
+
+/* brants -sec */
+.owl-dots{
+    display: none;
+}
+/* brants -sec-end */
+footer{
+    background-image: url(../images/h3-footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.fb , .tw , .pin , .ins{
+    display: inline-block;
+    background-color: rgb(244 244 245);
+    height: 40px;
+    width: 40px;
+    padding: 9px;
+    font-size: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+.fb:hover{
+background-color: rgb(59,89,152);
+color: #fff !important;
+}
+.tw:hover{
+    background-color: rgb(0,172,237);
+    color: #fff !important;
+    }
+.pin:hover{
+        background-color: rgb(211,32,39);
+        color: #fff !important;
+ }
+ .ins:hover{
+         background-color: rgb(234,71,102);
+         color: #fff !important;
+ } 
+
+ /*footer-bottom  */
+
+ .word-content a{
+    text-decoration: none;
+    color:white;
+
+ }                
+
+

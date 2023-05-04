@@ -1,0 +1,262 @@
+@media (max-width:576px) {
+
+      /*phone to desktop */
+      .coach-img img,
+      .what-img img,
+      .card,
+      .class-img img,
+      .training-image img,
+      .request-img img {
+  
+          width: 100% !important;
+      }
+      .top-header{
+        display: none;
+      }
+  
+      .heading {
+          padding-bottom: 0px !important;
+          padding-top: 0px !important;
+      }
+  
+      .home-content {
+          margin: 0 !important;
+          text-align: initial !important;
+          padding: 0% !important;
+      }
+  
+      /* BRANTS */
+      .brands-sec {
+          padding-top: 15px !important;
+      }
+  
+      .brands-img {
+          padding: 0px !important;
+      }
+  
+      /* BRANTS-end */
+      .owl-prev,
+      .owl-next {
+          top: 134px !important;
+      }
+  
+      /* about-mb */
+      .about-mb {
+          flex-direction: column-reverse;
+      }
+  
+      .coach-sec {
+          margin-top: 0px;
+      }
+  
+      /* fitness-sec */
+      .fit-mb {
+          flex-direction: column-reverse !important;
+      }
+  
+      .class-img {
+          display: none !important;
+      }
+  
+      .training-image::after {
+          top: 29px !important;
+          left: 3px !important;
+          height: 90% !important;
+          width: 93% !important;
+      }
+  
+      .training-image {
+          position: initial !important;
+          bottom: 0px;
+      }
+  
+      /* what-sex */
+      .what-boxes {
+          padding-left: 50px;
+      }
+  
+      .what-icon {
+          left: 17px !important;
+      }
+  
+      .fit-con {
+          padding: 0% !important;
+      }
+  
+      .word-content p {
+          font-size: 10px !important;
+      }
+  
+      .join-class {
+          padding-bottom: 10px !important;
+      }
+      .f-gal{
+        padding-left: 30px;
+    }
+
+}
+
+@media (min-width:576px) {
+
+    /*phone to desktop */
+
+    .coach-img img,
+    .what-img img,
+    .card,
+    .class-img img,
+    .training-image img,
+    .request-img img {
+
+        width: 100% !important;
+    }
+
+    .top-header{
+        display: none;
+    }
+
+    .heading {
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    .home-content {
+        margin: 0 !important;
+        text-align: initial !important;
+        padding: 0% !important;
+    }
+
+    /* BRANTS */
+    .brands-sec {
+        padding-top: 15px !important;
+    }
+
+    .brands-img {
+        padding: 0px !important;
+    }
+
+    /* BRANTS-end */
+    .owl-prev,
+    .owl-next {
+        top: 134px !important;
+    }
+
+    /* about-mb */
+    .about-mb {
+        flex-direction: column-reverse;
+    }
+
+    .coach-sec {
+        margin-top: 0px;
+    }
+
+    /* fitness-sec */
+    .fit-mb {
+        flex-direction: column-reverse !important;
+    }
+
+    .class-img {
+        display: none !important;
+    }
+
+    .training-image::after {
+        top: 29px !important;
+        left: 3px !important;
+        height: 90% !important;
+        width: 93% !important;
+    }
+
+    .training-image {
+        position: initial !important;
+        bottom: 0px;
+    }
+
+    /* what-sex */
+    .what-boxes {
+        padding-left: 50px;
+    }
+
+    .what-icon {
+        left: 17px !important;
+    }
+
+    .fit-con {
+        padding: 0% !important;
+    }
+
+    .word-content p {
+        font-size: 10px !important;
+    }
+
+    .join-class {
+        padding-bottom: 10px !important;
+    }
+    .f-gal{
+        padding-left: 30px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+
+    .coach-sec {
+        margin-top: 0px;
+    }
+
+    .g-p {
+        padding-bottom: 20px;
+    }
+
+    .class-img {
+        display: block !important;
+        width: 100%;
+        margin-left: 5px !important;
+    }
+
+    .join-class {
+        padding: 50px 0px;
+    }
+}
+
+@media (min-width:992px) {
+    .top-header{
+        display: block !important;
+    }
+    .home-content {
+        margin: 186px -19px !important;
+    }
+
+    .about-mb {
+        flex-direction: initial;
+        margin: -63px;
+    }
+
+    .owl-item {
+        padding: 35px !important;
+    }
+}
+
+.fit-mb {
+    flex-direction: initial !important;
+}
+
+.class-img {
+    display: block !important;
+}
+ .training-image{
+    position: absolute !important;
+    bottom: -38px !important;
+}
+
+.training-image::after {
+    top: -6px !important;
+    left: -8px !important;
+    height: 99% !important;
+    width: 100% !important;
+} */
+.navbar-nav{
+    padding-left: 150px !important;
+    flex-direction: initial !important;
+}
+.nav-icons i{
+    
+}
